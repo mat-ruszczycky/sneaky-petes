@@ -1,4 +1,4 @@
-# PROJECT-NAME-HERE
+# SNEAKY PETES
 ---
 **Trello Tracker:** (https://trello.com/)
 
