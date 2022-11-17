@@ -7,7 +7,6 @@ tag.prop
 temp
 tmp
 bower_components
-/dist
 /built
 .lw.json
 package-lock.json

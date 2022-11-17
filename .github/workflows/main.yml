@@ -17,5 +17,5 @@ jobs:
         server: ftp.matrsomething.com
         username: mrusz1683@matrsomething.com
         password: ${{ secrets.ftp_password }}
-        local-dir: ./src/
+        local-dir: ./dist/
         server-dir: public_html/www/sneaky-petes/
