@@ -22,16 +22,6 @@ $debug: false;
         @include media-breakpoint-up(xl) {
             border: 2px solid magenta;
         }
-
-        .header-logo {
-            border: 1px solid green;
-            opacity: 1 !important;
-        }
-    
-        .header-switch {
-            border: 1px solid green;
-            opacity: 1 !important;
-        }
         
         .container {
             border: 2px solid rgb(62, 212, 228);
