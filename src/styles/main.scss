@@ -9,10 +9,18 @@
 @import 'shared/base/debugger';
 
 // Component(s)
-@import 'shared/components/component-name';
+@import 'shared/components/footer';
 
 // Template(s)
-@import 'shared/templates/template-name';
+// @import 'shared/templates/template-name';
 
 // Partial(s)
-@import 'partials/partial-name';
+@import 'partials/hero';
+@import 'partials/venue';
+@import 'partials/talent';
+@import 'partials/moments';
+@import 'partials/perform';
+@import 'partials/fremont';
+@import 'partials/loft';
+@import 'partials/dream';
+@import 'partials/family';

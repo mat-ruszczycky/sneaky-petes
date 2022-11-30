@@ -31,11 +31,7 @@
 	{{/block}}
 
 	{{#block "body"}}
-		<body class="page page-bkgd-texture {{#block "body:class"}}{{/block}}">
-			{{#block "body:header"}}
-				{{> "shared/components/component-name"}}
-			{{/block}}
-
+		<body class="page{{#block "body:class"}}{{/block}}">
 			{{#block "body:main"}}
 				<main id="main">
 					{{#block "body:main:content"}}{{/block}}
