@@ -28,3 +28,9 @@ html {
         }   
     }
 }
+
+// Backgrounds
+.bkgd-red-grad {
+    background: rgb(75,0,0);
+    background: linear-gradient(0deg, rgba(75,0,0,1) 30%, rgba(0,0,0,0) 75%);
+}
