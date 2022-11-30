@@ -23,6 +23,16 @@
 
 
 // Mixins
+@mixin picture-scale ($w, $h, $url) {
+    position: relative;
+    display: block;
+    min-height: $h;
+    background-image: url($url);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+}
+
 @mixin picture ($w, $h, $url) {
     position: relative;
     display: block;
@@ -30,7 +40,8 @@
     height: $h;
     background-image: url($url);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top center;
+    background-size: contain;
     background-size: $w $h;
     text-indent: -9999px;
 }
