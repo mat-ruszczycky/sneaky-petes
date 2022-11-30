@@ -42,6 +42,10 @@
 				</main>
 			{{/block}}
 
+			{{#block "body:footer"}}
+				{{> "shared/components/footer"}}
+			{{/block}}
+
 			{{#block "body:scripts"}}
 				<script src="{{content.metadata.assets}}/assets/built/scripts/main.built.js" defer></script>
 			{{/block}}

@@ -10,3 +10,4 @@ bower_components
 /built
 .lw.json
 package-lock.json
+/site-admin
