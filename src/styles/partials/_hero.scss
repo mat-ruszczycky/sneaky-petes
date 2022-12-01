@@ -1,7 +1,19 @@
 // Partial - partial-name
 .section-hero {
     text-align: center;
+    font-size: 32px;
 
+    h1 {
+        @include picture(363px, 201px, './../../images/overview/hero_logo.png');
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 70px;
+    }
+
+    p {
+        margin-top: 300px;
+    }
+    
     @include picture-scale(1800px, 1224px, './../../images/overview/hero.jpg');
 
     @include media-breakpoint-up(xs) {

@@ -1,7 +1,20 @@
 // Component - component-name
 #footer {
-    .sign-up {
+    text-align: center;
+    font-size: 24px;
 
+    .sign-up {
+        a {
+            display: inline-block;
+            background-color: #b20001;
+            text-align: center;
+            padding: 17px 40px;
+            font-size: 14px;
+            text-transform: uppercase;
+            outline: none;
+            border: 0;
+            border-radius: 14px;
+        }
     }
 
     .byline {
