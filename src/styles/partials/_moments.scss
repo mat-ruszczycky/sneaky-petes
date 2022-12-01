@@ -1,4 +1,13 @@
 // Partial - partial-name
 .section-moments { 
-  
+    .container {
+        padding-top: 60px;
+        padding-bottom: 60px;
+
+        img {
+            max-width: 412px;
+            display: block;
+            margin: 0 auto;
+        }
+    }
 }

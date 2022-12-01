@@ -1,28 +1,34 @@
 // Component - component-name
 #footer {
     text-align: center;
-    font-size: 24px;
 
-    .sign-up {
-        a {
-            display: inline-block;
-            background-color: #b20001;
-            text-align: center;
-            padding: 17px 40px;
-            font-size: 14px;
-            text-transform: uppercase;
-            outline: none;
-            border: 0;
-            border-radius: 14px;
+    .container {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        
+        &.sign-up {
+            a {
+                display: inline-block;
+                background-color: #b20001;
+                text-align: center;
+                padding: 17px 40px;
+                font-size: 14px;
+                text-transform: uppercase;
+                outline: none;
+                border: 0;
+                border-radius: 14px;
+            }
         }
     }
 
-    .byline {
-        background-color: #b20001;
-        text-align: center;
-        padding-top: 30px;
-        padding-bottom: 30px;
-        font-size: 14px;
-        text-transform: uppercase;
+    .container-fluid {    
+        &.byline {
+            background-color: #b20001;
+            text-align: center;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            font-size: 14px;
+            text-transform: uppercase;
+        }
     }
 }

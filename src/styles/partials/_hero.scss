@@ -1,7 +1,8 @@
 // Partial - partial-name
 .section-hero {
-    text-align: center;
-    font-size: 32px;
+    @include picture-scale(1800px, 1224px, './../../images/overview/hero.jpg');
+    text-align: center;    
+    min-height: 400px;
 
     h1 {
         @include picture(363px, 201px, './../../images/overview/hero_logo.png');
@@ -11,28 +12,18 @@
     }
 
     p {
-        margin-top: 300px;
-    }
-    
-    @include picture-scale(1800px, 1224px, './../../images/overview/hero.jpg');
-
-    @include media-breakpoint-up(xs) {
-        min-height: 400px;
-    }
-
-    @include media-breakpoint-up(sm) {
-        min-height: 400px;
+        margin-top: 100px;
     }
 
     @include media-breakpoint-up(md) {
-        min-height: 700px;
+        min-height: 600px;
     }
 
     @include media-breakpoint-up(lg) {
-        min-height: 800px;
+        min-height: 628px;
     }
 
     @include media-breakpoint-up(xl) {
-        min-height: 900px;
+        min-height: 1100px;
     }
 }
