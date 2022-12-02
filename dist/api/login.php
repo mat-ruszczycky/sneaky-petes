@@ -1,17 +1,21 @@
 <?php
-    $heading = "What...is the air-speed velocity of an unladen swallow?";
+    // Constants
+    define('PASS', 'shhhh');
 
-    if (! empty($_POST["login"])) {
-       if($_REQUEST['pass'] === 'LaughOrDie'){
-            echo 'Good';
+    // Props
+    $heading = 'What...is the air-speed velocity of an unladen swallow?';
+    $msgs = array('Nope.', 'Try again.', 'Do you even lift Bro?', 'Uh uh.', 'You didn\'t say the magic word.');
+
+    // Simple login logic
+    if (! empty($_POST['login'])) {
+        if($_REQUEST['pass'] === PASS){
             session_start();
             $_SESSION['user'] = true;
-            header("Location: ./../");
+            header('Location: ./../');
             exit;
-       } else {
-        $msgs = array("Nope.", "Try again.", "Do you even lift Bro?", "Uh uh.", "You didn't say the magic word.");
-        $heading = $msgs[rand(0, count($msgs) - 1)];
-       }  
+        }
+
+        $heading = $msgs[rand(0, count($msgs) - 1)];  
     }
 ?>
 
