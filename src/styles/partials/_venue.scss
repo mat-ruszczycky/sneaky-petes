@@ -1,9 +1,19 @@
-// Partial - partial-name
+// Partial - Venue
 .section-venue { 
     font-size: 18px;
     
     @include media-breakpoint-up(lg) {
         font-size: 25px;
+    }
+
+    .container {
+        padding-top: 40px;
+        padding-bottom: 40px;
+
+        @include media-breakpoint-up(lg) {
+            padding-top: 60px;
+            padding-bottom: 60px;
+        }
     }
 
     .venue-caption,
@@ -13,17 +23,6 @@
 
         @include media-breakpoint-up(md) {
             text-align: left;
-        }
-    }
-    
-
-    .container {
-        padding-top: 40px;
-        padding-bottom: 40px;
-
-        @include media-breakpoint-up(lg) {
-            padding-top: 60px;
-            padding-bottom: 60px;
         }
     }
 }
