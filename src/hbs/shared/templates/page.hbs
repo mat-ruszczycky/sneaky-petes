@@ -1,3 +1,12 @@
+<?php
+    session_start();
+    
+    if (!isset($_SESSION['user'])) {
+        header('Location: ./api/login.php');
+        exit;
+    } 
+?>
+
 <!DOCTYPE html>
 	{{#block "doctype"}}
 		<html xml:lang="{{content.metadata.locale.lang}}-{{content.metadata.locale.country}}" lang="{{content.metadata.locale.lang}}-{{content.metadata.locale.country}}" prefix="og: http://ogp.me/ns#" class="no-js">
