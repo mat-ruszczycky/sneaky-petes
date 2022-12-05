@@ -1,5 +1,5 @@
-<div class="container">
-    <div class="row align-items-center">
+<div class="container{{#if fluid}}-fluid{{/if}}{{#with classNames}} {{this}}{{/with}}">
+    <div class="row">
         {{> @partial-block }}
     </div>
 </div>

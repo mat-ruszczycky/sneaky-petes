@@ -9,10 +9,17 @@
 @import 'shared/base/debugger';
 
 // Component(s)
-@import 'shared/components/component-name';
+@import 'shared/components/footer';
 
 // Template(s)
-@import 'shared/templates/template-name';
+// @import 'shared/templates/template-name';
 
 // Partial(s)
-@import 'partials/partial-name';
+@import 'partials/hero';
+@import 'partials/venue';
+@import 'partials/comedians';
+@import 'partials/moments';
+@import 'partials/specs';
+@import 'partials/fremont';
+@import 'partials/airbnb';
+@import 'partials/about';

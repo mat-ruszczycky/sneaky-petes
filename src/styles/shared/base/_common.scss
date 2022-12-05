@@ -9,6 +9,12 @@ html {
     }
     
     body {
+        overflow-x: hidden;
+        @extend %theme-dark;
+
+        img {
+            width: 100%;
+        }
 
         main {
      
@@ -21,4 +27,18 @@ html {
             }
         }   
     }
+}
+
+// Backgrounds
+.bkgd-red-grad {
+    background: rgb(75,0,0);
+    background: linear-gradient(0deg, rgba(75,0,0,1) 30%, rgba(0,0,0,0) 110%);
+}
+
+.bkgd-dark-grey {
+    background: #131a15;
+}
+
+.bkgd-mid-grey {
+    background: #212622;
 }

@@ -1,0 +1,14 @@
+// Partial - partial-name
+.section-airbnb { 
+    .container {
+        &.loft {
+            padding-top: 100px;
+            padding-bottom: 80px;
+        }
+
+        &.perks {
+            padding-top: 50px;
+            padding-bottom: 25px;
+        }
+    } 
+}

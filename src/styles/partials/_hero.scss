@@ -1,0 +1,35 @@
+// Partial - partial-name
+.section-hero {
+    @include picture-scale(1800px, 1224px, './../../images/overview/hero.jpg');
+    text-align: center;    
+    min-height: 400px;
+
+    @include media-breakpoint-up(lg) {
+        min-height: 628px;
+    }
+
+    // logo
+    h1 {
+        @include picture(200px, 124px, './../../images/overview/hero_logo.png');
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40px;
+
+        @include media-breakpoint-up(md) {
+            @include picture(364px, 226px, './../../images/overview/hero_logo.png');
+            margin-top: 60px;
+        }
+    }
+
+    // intro 
+    p {
+        font-size: 18px;
+        margin-top: 62px;
+        
+        @include media-breakpoint-up(lg) {
+            font-size: 25px;
+            margin-top: 190px;
+        }
+    }
+
+}

@@ -1,0 +1,34 @@
+// Partial - partial-name
+.section-comedians {
+    font-size: 18px;
+    
+    @include media-breakpoint-up(lg) {
+        font-size: 25px;
+    }
+    
+    .comendian-lineup {
+       text-align: center;
+       margin-top: 40px;
+        
+        @include media-breakpoint-up(lg) {
+            width: 20%;
+            float: left;
+        }
+
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0 15px;
+        }
+    }
+    
+    .container {
+        padding-top: 40px;
+        padding-bottom: 40px;
+
+        @include media-breakpoint-up(lg) {
+            padding-top: 60px;
+            padding-bottom: 60px;
+        }
+    }
+}

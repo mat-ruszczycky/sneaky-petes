@@ -1,0 +1,43 @@
+// Partial - partial-name
+.section-specs { 
+    font-size: 18px;
+    text-align: center;
+    
+    @include media-breakpoint-up(lg) {
+        font-size: 25px;
+    }
+
+    .container {
+        padding-top: 40px;
+        padding-bottom: 40px;
+
+        @include media-breakpoint-up(lg) {
+            padding-top: 60px;
+            padding-bottom: 60px;
+        }
+    }
+
+    .spec-record {
+        font-size: 18px;
+        background-color: #212121;
+        border-radius: 18px;
+        padding: 18px;
+        box-sizing: border-box;
+        min-height: 140px;
+        margin-top: 40px;
+        position: relative;
+        p {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 100%;
+            left: 0;
+            padding: 18px;
+        }
+    }
+
+    .disclaimer {
+        font-size: 14px;
+        margin-top: 40px;
+    }
+}
