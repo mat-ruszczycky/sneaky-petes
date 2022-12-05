@@ -49,14 +49,14 @@
                     </div>
 
                     <div class="col-md-6">
-                        <img src="./assets/images/overview/gallery_bartender.jpg">
-                        <p>Open Bar &amp; Custom Cocktails</p>
+                        <img class="venue-image" src="./assets/images/overview/gallery_bartender.jpg">
+                        <p class="venue-caption">Open Bar &amp; Custom Cocktails</p>
                     </div>
 
                     <div class="col-md-6">
-                        <img src="./assets/images/overview/gallery_stage.jpg">
-                        <p>Intimate Room fits 80 patrons</p>
-                        <img src="./assets/images/overview/gallery_hey_man.jpg">
+                        <img class="venue-image" src="./assets/images/overview/gallery_stage.jpg">
+                        <p class="venue-caption">Intimate Room fits 80 patrons</p>
+                        <img class="venue-image" src="./assets/images/overview/gallery_hey_man.jpg">
                     </div>
                 </div>
             </div>
@@ -68,64 +68,66 @@
                         <h2 class="heading-section with-border"><span>Some of the talented performers to date</span></h2>
                     </div>
 
-                    <div class="col-md-2">
-                        <ul>
-                            <li>Saul Trujillo</li>
-                            <li>Ryan Goodcase</li>
-                            <li>Justin James</li>
-                            <li>Liv Doty</li>
-                            <li>Rick Storer</li>
-                            <li>Michael Duncan</li>
-                            <li>Eric Freedman</li>
-                        </ul>
-                    </div>
+                    <div class="col-md-12">
+                        <div class="comendian-lineup">
+                            <ul>
+                                <li>Saul Trujillo</li>
+                                <li>Ryan Goodcase</li>
+                                <li>Justin James</li>
+                                <li>Liv Doty</li>
+                                <li>Rick Storer</li>
+                                <li>Michael Duncan</li>
+                                <li>Eric Freedman</li>
+                            </ul>
+                        </div>
 
-                    <div class="col-md-2">
-                        <ul>
-                            <li>Orion Levine</li>
-                            <li>Xander Beltrain</li>
-                            <li>Chris Williams</li>
-                            <li>Ernie Romero</li>
-                            <li>Nick Malizia</li>
-                            <li>Sam Goldstein</li>
-                            <li>Divesh Patel</li>
-                        </ul>
-                    </div>
+                        <div class="comendian-lineup">
+                            <ul>
+                                <li>Orion Levine</li>
+                                <li>Xander Beltrain</li>
+                                <li>Chris Williams</li>
+                                <li>Ernie Romero</li>
+                                <li>Nick Malizia</li>
+                                <li>Sam Goldstein</li>
+                                <li>Divesh Patel</li>
+                            </ul>
+                        </div>
 
-                    <div class="col-md-2">
-                        <ul>
-                            <li>Joe Praino</li>
-                            <li>Kil Theodrick</li>
-                            <li>Nikki Bon</li>
-                            <li>Kyle Anderson</li>
-                            <li>Ben Herwitz</li>
-                            <li>Jay Light</li>
-                            <li>Danny Dunn</li>
-                        </ul>
-                    </div>
+                        <div class="comendian-lineup">
+                            <ul>
+                                <li>Joe Praino</li>
+                                <li>Kil Theodrick</li>
+                                <li>Nikki Bon</li>
+                                <li>Kyle Anderson</li>
+                                <li>Ben Herwitz</li>
+                                <li>Jay Light</li>
+                                <li>Danny Dunn</li>
+                            </ul>
+                        </div>
 
-                    <div class="col-md-2">
-                        <ul>
-                            <li>Monarey Martinez</li>
-                            <li>Sean Reilly</li>
-                            <li>Tufan Nadjafi</li>
-                            <li>Stormy Silva</li>
-                            <li>Brett Dodenhoff</li>
-                            <li>Bryson Banks</li>
-                            <li>Cori Ramsay</li>
-                        </ul>
-                    </div>
+                        <div class="comendian-lineup">
+                            <ul>
+                                <li>Monarey Martinez</li>
+                                <li>Sean Reilly</li>
+                                <li>Tufan Nadjafi</li>
+                                <li>Stormy Silva</li>
+                                <li>Brett Dodenhoff</li>
+                                <li>Bryson Banks</li>
+                                <li>Cori Ramsay</li>
+                            </ul>
+                        </div>
 
-                    <div class="col-md-2">
-                        <ul>
-                            <li>Ralph Guerra</li>
-                            <li>Hannah Rose</li>
-                            <li>Issiah Castillo</li>
-                            <li>Rob Pugliese</li>
-                            <li>Dylan Fisher</li>
-                            <li>Adian Candalario</li>
-                            <li>Kelsie Rae</li>
-                        </ul>
+                        <div class="comendian-lineup">
+                            <ul>
+                                <li>Ralph Guerra</li>
+                                <li>Hannah Rose</li>
+                                <li>Issiah Castillo</li>
+                                <li>Rob Pugliese</li>
+                                <li>Dylan Fisher</li>
+                                <li>Adian Candalario</li>
+                                <li>Kelsie Rae</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -138,18 +140,24 @@
                     </div>
 
                     <div class="col-md-4">
-                        <img src="./assets/images/overview/comedian_kit_theodrick.jpg">
-                        <p>Kil Theodrick</p>
+                        <div class="moment-record">
+                            <img src="./assets/images/overview/comedian_kit_theodrick.jpg">
+                            <p>Kil Theodrick</p>
+                        </div>
                     </div>
 
                     <div class="col-md-4">
-                        <img src="./assets/images/overview/comedian_bill_herwitz.jpg">
-                        <p>Ben Herwitz</p>
+                        <div class="moment-record">
+                            <img src="./assets/images/overview/comedian_bill_herwitz.jpg">
+                            <p>Ben Herwitz</p>
+                        </div>
                     </div>
 
                     <div class="col-md-4">
-                        <img src="./assets/images/overview/comedian_joe_praino.jpg">
-                        <p>Joe Praino</p>
+                        <div class="moment-record">
+                            <img src="./assets/images/overview/comedian_joe_praino.jpg">
+                            <p>Joe Praino</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -163,24 +171,32 @@
                             <p>We’ve pulled out all the smoke and mirrors to make our room the best comedy experience. Starting with an invite-only event, our audience is here for comedy alone. Additionally, we are not telling the crowd who’s performing, so it’s a complete surprise when we bring you out of the side door. This room is a unqiue spot where you can bring your best but also have the full freedom to play and create with a hot room. We give you as much time as you want, it will be filmed accordingly (only for you to have), with entrance and exit footage. Content is King! To top it off, we have an apartment above the room for your stay and for pre/post show lounging, which has a private bedroom and bathroom.</p>
                         </div>
 
-                        <div class="col-md-3">
-                            <p>Additional Sneaky Podcast available in Studio with complete access to footage.</p>
+                        <div class="col-lg-3">
+                            <div class="spec-record">
+                                <p>Additional Sneaky Podcast available in Studio with complete access to footage.</p>
+                            </div>
                         </div>
 
-                        <div class="col-md-3">
-                            <p>We are attempting to create the best comedy room period. No bullshit, no red tape.</p>
+                        <div class="col-lg-3">
+                            <div class="spec-record">
+                                <p>We are attempting to create the best comedy room period. No bullshit, no red tape.</p>
+                            </div>
                         </div>
 
-                        <div class="col-md-3">
-                            <p>Workout your new 30/45/60+ min, new material in a tested, paid secret club.</p>
+                        <div class="col-lg-3">
+                            <div class="spec-record">
+                                <p>Workout your new 30/45/60+ min, new material in a tested, paid secret club.</p>
+                            </div>
                         </div>
 
-                        <div class="col-md-3">
-                            <p>No one knows you’ll be coming through and we’ll document the magic of the reveal moment.</p>
+                        <div class="col-lg-3">
+                            <div class="spec-record">
+                                <p>No one knows you’ll be coming through and we’ll document the magic of the reveal moment.</p>
+                            </div>
                         </div>
 
                         <div class="col-md-12">
-                            <p>We’ll also make sure no one records / takes photos so you have full access to our unique footage.</p>
+                            <p class="disclaimer"><strong><em>We’ll also make sure no one records / takes photos so you have full access to our unique footage.</em></strong></p>
                         </div>
                     </div>
                 </div>
@@ -272,7 +288,7 @@
                 </div>
 
                 <div class="col-md-12">
-                    <img src="./assets/images/overview/footer_logo.jpg" style="width: 202px; display: inline-block;">
+                    <img src="./assets/images/overview/footer_logo.jpg" style="width: 202px; display: inline-block; margin-top: 40px;">
                 </div>
             </div>
         </div>
