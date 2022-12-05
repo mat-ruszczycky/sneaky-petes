@@ -1,11 +1,6 @@
 // Partial - Fremont
 .section-fremont { 
-    font-size: 18px;
     text-align: center;
-    
-    @include media-breakpoint-up(lg) {
-        font-size: 25px;
-    }
 
     .container {
         padding-top: 40px;

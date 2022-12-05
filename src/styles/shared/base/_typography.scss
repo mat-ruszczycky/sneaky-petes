@@ -4,9 +4,9 @@
 @import url('https://fonts.cdnfonts.com/css/gotham');
 
 // Generic
-// * {
-//     font-family: 'Gotham Light', sans-serif;
-// }
+* {
+    font-family: 'Gotham Light', sans-serif;
+}
 
 // font-family: 'Gotham', sans-serif;
 // font-family: 'Gotham Black', sans-serif;
@@ -30,7 +30,11 @@ button,
 p {
     font-family: 'Gotham Thin', sans-serif;
     font-weight: 300;
-    margin: 0;
+    font-size: 18px;
+    
+    @include media-breakpoint-up(lg) {
+        font-size: 25px;
+    }
 }
 
 .heading-section {
@@ -44,7 +48,7 @@ p {
             content: " ";
             border-bottom: 3px solid #b60001;
             display: block;
-            top: 4px;
+            top: 14px;
             position: absolute;
             width: 100%;
             margin: 0;

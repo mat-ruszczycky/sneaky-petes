@@ -1,6 +1,6 @@
 <?php
     // Constants
-    define('PASS', 'shhhh');
+    define('PASS', 'shhh');
 
     // Props
     $heading = 'What...is the air-speed velocity of an unladen swallow?';
