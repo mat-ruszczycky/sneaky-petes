@@ -26,37 +26,48 @@
     <meta name="robots" content="noindex, nofollow" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <link href="../assets/built/styles/main.built.css" rel="stylesheet">
 
     <style type="text/css">
         body {
-            font-family: sans-serif;
             max-width: 980px;
             width: 90%;
             margin: 0 auto;
             padding-top: 15vh;
             text-align: center;
-
         }
 
         form {
             width: 95%;
             margin: 0 auto;
+            
         }
 
         input {
             display: inline-block;
             margin-top: 25px;
             font-size: 18px;
+            padding: 40px 40px;
         }
 
         input[type="password"] {
-            width: 90%;
+            width: 100%;
             padding: 4% 5%;
+            border-radius: 14px;
         }
 
         input[type="submit"] {
+            display: inline-block;
+            background-color: #b20001;
+            text-align: center;
+    
+            text-transform: uppercase;
+            outline: none;
+            border: 0;
+            border-radius: 14px;
+            margin-top: 40px;
+            color: #fff;
             width: 100%;
-            padding: 25px;
         }
     </style>
 </head>
