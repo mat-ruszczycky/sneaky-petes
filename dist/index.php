@@ -45,7 +45,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h2 class="heading-section with-border"><span>The Room</span></h2>
+                        <h2 class="heading-section with-border">
+                            <span>The Room</span>
+                        </h2>
                     </div>
 
                     <div class="col-md-6">
@@ -65,7 +67,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h2 class="heading-section with-border"><span>Some of the talented performers to date</span></h2>
+                        <h2 class="heading-section with-border">
+                            <span>Some of the talented performers to date</span>
+                        </h2>
                     </div>
 
                     <div class="col-md-12">
@@ -136,7 +140,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h2 class="heading-section">Check Out Some Fun Moments</h2>
+                        <h2 class="heading-section">
+                            <span>Check Out Some Fun Moments</span>
+                        </h2>
                     </div>
 
                     <div class="col-md-4">
@@ -167,7 +173,9 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <h2 class="heading-section">Now the Question is, Why should I Perfrom at Sneaky’s?</h2>
+                            <h2 class="heading-section">
+                                <span>Now the Question is, Why should I Perfrom at Sneaky’s?</span>
+                            </h2>
                             <p>We’ve pulled out all the smoke and mirrors to make our room the best comedy experience. Starting with an invite-only event, our audience is here for comedy alone. Additionally, we are not telling the crowd who’s performing, so it’s a complete surprise when we bring you out of the side door. This room is a unqiue spot where you can bring your best but also have the full freedom to play and create with a hot room. We give you as much time as you want, it will be filmed accordingly (only for you to have), with entrance and exit footage. Content is King! To top it off, we have an apartment above the room for your stay and for pre/post show lounging, which has a private bedroom and bathroom.</p>
                         </div>
 
@@ -207,9 +215,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h2 class="heading-section">But Wait... There’s More! Introducing the Fremont Theater</h2>
+                        <h2 class="heading-section">
+                            <span>But Wait... There’s More! Introducing the Fremont Theater</span>
+                        </h2>
                         <img src="./assets/images/overview/fremont.jpg">
-                        <p>Our local 900 patron venue, The Fremont Theater, has granted us access to encourage your show to have a Sneaky’s date along with a large theater show. This isn’t mandatory, but if you would like to get 2 shows back to back, we can make it happen. We’d love to discuss details when you’re ready to get 2 great shows dialed.</p>
+                        <p class="col-md-10 ml-auto mr-auto">Our local 900 patron venue, The Fremont Theater, has granted us access to encourage your show to have a Sneaky’s date along with a large theater show. This isn’t mandatory, but if you would like to get 2 shows back to back, we can make it happen. We’d love to discuss details when you’re ready to get 2 great shows dialed.</p>
                     </div>
                 </div>
             </div>
@@ -219,7 +229,9 @@
                 <div class="container loft">
                     <div class="row">
                         <div class="col-md-6 align-self-center">
-                            <h2 class="heading-section">Go Ahead, Stay a While.</h2>
+                            <h2 class="heading-section">
+                                <span>Go Ahead, Stay a While.</span>
+                            </h2>
                             <p>Above the entire experience is the Sneaky Loft, a unique space with 2 beds, full kitchen, space to sprawl out and full bathroom of course. This is also 100% hidden, so don’t expect anyone to know you’re staying in the loft, as well as please don’t publicize that you are as well. Privacy is key to all of our experiences, so we please ask no content sharing of any kind.</p>
                         </div>
 
@@ -234,7 +246,9 @@
                 <div class="container perks">
                     <div class="row">
                         <div class="col-md-12">
-                            <h2 class="heading-section">The Sneaky Loft Perks Include</h2>
+                            <h2 class="heading-section">
+                                <span>The Sneaky Loft Perks Include</span>
+                            </h2>
                         </div>
 
                         <div class="col-md-4">
@@ -268,8 +282,10 @@
         <section class="section section-about">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12">
-                        <h2 class="heading-section">The Sneaky Dream to Reality...</h2>
+                    <div class="col-md-6 offset-md-6">
+                        <h2 class="heading-section">
+                            <span>The Sneaky Dream to Reality...</span>
+                        </h2>
                         <p>Local laugher Pete Ayer and producer Ernest Romero came together during the Covid lockdown to create what locals says “the funnest thing to hit San Luis Obispo, ever!” And how can we disagree? We’ve put our blood, sweat and laughs into this unique offering of a hidden comedy club that produces some of the funnest and unique experiences around. And we’re just getting started!</p>
                     </div>
                 </div>
@@ -288,7 +304,7 @@
                 </div>
 
                 <div class="col-md-12">
-                    <img src="./assets/images/overview/footer_logo.jpg" style="width: 202px; display: inline-block; margin-top: 40px;">
+                    <img class="footer-logo" src="./assets/images/overview/footer_logo.jpg">
                 </div>
             </div>
         </div>

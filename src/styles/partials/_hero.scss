@@ -5,19 +5,21 @@
     text-align: center;    
     
     @include media-breakpoint-up(lg) {
-        min-height: 628px;
+        min-height: 1200px;
     }
 
     // logo
     h1 {
-        @include picture(200px, 124px, './../../images/overview/hero_logo.png');
+        $imgHero: './../../images/overview/hero_logo.png';
+
+        @include picture(200px, 124px, $imgHero);
         margin-left: auto;
         margin-right: auto;
         margin-top: 40px;
 
         @include media-breakpoint-up(md) {
-            @include picture(364px, 226px, './../../images/overview/hero_logo.png');
-            margin-top: 60px;
+            @include picture(364px, 226px, $imgHero);
+            margin-top: 70px;
         }
     }
 
@@ -28,7 +30,7 @@
         
         @include media-breakpoint-up(lg) {
             font-size: 25px;
-            margin-top: 190px;
+            margin-top: 525px;
         }
     }
 

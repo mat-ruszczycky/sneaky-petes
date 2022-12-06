@@ -12,11 +12,11 @@
 
     .venue-caption,
     .venue-image {
-        margin-top: 14px;
+        line-height: 1em;
         text-align: center;
+    }
 
-        @include media-breakpoint-up(md) {
-            text-align: left;
-        }
+    .venue-image {
+        margin-top: 1em;
     }
 }

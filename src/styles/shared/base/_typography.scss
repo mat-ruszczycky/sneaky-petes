@@ -1,20 +1,13 @@
 // Base - typography
 
 //  Font Definitions
-@import url('https://fonts.cdnfonts.com/css/gotham');
+// https://www.cdnfonts.com/gotham.font
+@import url('https://fonts.cdnfonts.com/css/gotham?styles=17585,17591,17592');
 
 // Generic
 * {
-    font-family: 'Gotham Light', sans-serif;
+    font-family: 'Gotham Thin', sans-serif;
 }
-
-// font-family: 'Gotham', sans-serif;
-// font-family: 'Gotham Black', sans-serif;
-// font-family: 'Gotham Light', sans-serif;
-// font-family: 'Gotham Thin', sans-serif;
-// font-family: 'Gotham XLight', sans-serif;
-// font-family: 'Gotham Book', sans-serif;
-// font-family: 'Gotham Ultra', sans-serif;
 
 // Headings
 h1,
@@ -28,27 +21,34 @@ ol,
 a,
 button,
 p {
-    font-family: 'Gotham Thin', sans-serif;
     font-weight: 300;
     font-size: 18px;
     
     @include media-breakpoint-up(lg) {
-        font-size: 25px;
+        font-size: 22px;
     }
 }
 
+p {
+    line-height: 2em;
+}
+
 .heading-section {
-    font-family: 'Gotham', sans-serif !important;
-    font-weight: 500;
     position: relative;
     text-align: center;
+
+    span {
+        font-family: 'Gotham', sans-serif !important;
+        font-weight: 500;
+        font-size: 32px;
+    }
 
     &.with-border {
         &:before {
             content: " ";
             border-bottom: 3px solid #b60001;
             display: block;
-            top: 14px;
+            top: 10px;
             position: absolute;
             width: 100%;
             margin: 0;

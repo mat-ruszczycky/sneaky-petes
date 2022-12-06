@@ -2,15 +2,15 @@
 .section-about {   
     @include picture-scale(1800px, 1224px, './../../images/overview/about.jpg');
     min-height: 400px;
-    text-align: center;    
-    
+
+    h2,
+    p,
+    span {
+        text-align: left;
+    }
     
     @include media-breakpoint-up(lg) {
-        min-height: 628px;
-    }
-
-    .container {
-        padding-top: 60px;
-        padding-bottom: 60px;
+        margin-top: 200px;
+        min-height: 1200px;
     }
 }
