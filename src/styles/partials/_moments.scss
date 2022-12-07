@@ -1,15 +1,5 @@
 // Partial - Moments
 .section-moments { 
-    .container {
-        padding-top: 40px;
-        padding-bottom: 40px;
-
-        @include media-breakpoint-up(lg) {
-            padding-top: 60px;
-            padding-bottom: 60px;
-        }
-    }
-
     .moment-record {
         text-align: center;
         margin-top: 1x;

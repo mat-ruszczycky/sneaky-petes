@@ -30,7 +30,17 @@ p {
 }
 
 p {
-    line-height: 2em;
+    line-height: 1.95em;
+}
+
+ul,
+ol,
+dl {
+    line-height: 1.55em;
+}
+
+strong {
+    font-family: 'Gotham', sans-serif !important;
 }
 
 .heading-section {

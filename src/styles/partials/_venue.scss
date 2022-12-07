@@ -1,15 +1,5 @@
 // Partial - Venue
 .section-venue { 
-    .container {
-        padding-top: 40px;
-        padding-bottom: 40px;
-
-        @include media-breakpoint-up(lg) {
-            padding-top: 60px;
-            padding-bottom: 60px;
-        }
-    }
-
     .venue-caption,
     .venue-image {
         line-height: 1em;

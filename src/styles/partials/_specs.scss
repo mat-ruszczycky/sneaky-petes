@@ -2,16 +2,6 @@
 .section-specs { 
     text-align: center;
 
-    .container {
-        padding-top: 40px;
-        padding-bottom: 40px;
-
-        @include media-breakpoint-up(lg) {
-            padding-top: 50px;
-            padding-bottom: 60px;
-        }
-    }
-
     .spec-record {
         font-size: 18px;
         background-color: #212121;
@@ -37,5 +27,6 @@
     .disclaimer {
         font-size: 14px;
         margin-top: 40px;
+        line-height: 1.33em;
     }
 }

@@ -36,7 +36,10 @@
                 <div class="row">
                     <div class="col-md-12">
                         <h1>Sneaky Pete's</h1>
-                        <p>Welcome to your new favorite comedic playground. Sneaky Pete’s is a well hidden, underground comedy club nesstled in downtown San Luis Obispo, California. We boast sellout, attentive crowds while filming your performance with 4k cameras for your use, as we do not publicize our venue, shows, nor experience. This website is for your eyes only, please. We keep everything SNEAKY around these parts!</p>
+                    </div>
+
+                    <div class="col-lg-12 col-xl-9 ml-auto mr-auto">
+                        <p>Welcome to your new favorite comedic playground. Sneaky Pete’s is a well hidden, underground comedy club nesstled in downtown San Luis Obispo, California. We boast sellout, attentive crowds while filming your performance with 4k cameras for your use, as we do not publicize our venue, shows, nor experience. This website is for your eyes only, please. We keep everything SNEAKY around these parts!</p>
                     </div>
                 </div>
             </div>
@@ -68,7 +71,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <h2 class="heading-section with-border">
-                            <span>Some of the talented performers to date</span>
+                            <span>Some of the talented performers to&nbsp;date</span>
                         </h2>
                     </div>
 
@@ -141,7 +144,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <h2 class="heading-section">
-                            <span>Check Out Some Fun Moments</span>
+                            <span>Check Out Some Fun&nbsp;Moments</span>
                         </h2>
                     </div>
 
@@ -174,37 +177,19 @@
                     <div class="row">
                         <div class="col-md-12">
                             <h2 class="heading-section">
-                                <span>Now the Question is, Why should I Perfrom at Sneaky’s?</span>
+                                <span>Now the Question is, Why should I Perfrom at&nbsp;Sneaky’s?</span>
                             </h2>
-                            <p>We’ve pulled out all the smoke and mirrors to make our room the best comedy experience. Starting with an invite-only event, our audience is here for comedy alone. Additionally, we are not telling the crowd who’s performing, so it’s a complete surprise when we bring you out of the side door. This room is a unqiue spot where you can bring your best but also have the full freedom to play and create with a hot room. We give you as much time as you want, it will be filmed accordingly (only for you to have), with entrance and exit footage. Content is King! To top it off, we have an apartment above the room for your stay and for pre/post show lounging, which has a private bedroom and bathroom.</p>
                         </div>
 
-                        <div class="col-lg-3">
-                            <div class="spec-record">
-                                <p>Additional Sneaky Podcast available in Studio with complete access to footage.</p>
-                            </div>
+                        <div class="col-md-10 ml-auto mr-auto">
+                            <p>We’ve pulled out all the smoke and mirrors to make our room the best comedy experience. Starting with an invite-only event, our audience is here for comedy alone. Additionally, we are not telling the crowd who’s performing, so it’s a complete surprise when we bring you out of the side door. This room is a unqiue spot where you can bring your best but also have the full freedom to play and create with a hot room. We give you as much time as you want, it will be filmed accordingly (only for you to have), with entrance and exit footage. <strong>Content is King!</strong> To top it off, we have an apartment above the room for your stay and for pre/post show lounging, which has a private bedroom and bathroom.</p>
                         </div>
 
-                        <div class="col-lg-3">
-                            <div class="spec-record">
-                                <p>We are attempting to create the best comedy room period. No bullshit, no red tape.</p>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3">
-                            <div class="spec-record">
-                                <p>Workout your new 30/45/60+ min, new material in a tested, paid secret club.</p>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3">
-                            <div class="spec-record">
-                                <p>No one knows you’ll be coming through and we’ll document the magic of the reveal moment.</p>
-                            </div>
-                        </div>
 
                         <div class="col-md-12">
-                            <p class="disclaimer"><strong><em>We’ll also make sure no one records / takes photos so you have full access to our unique footage.</em></strong></p>
+                            <p class="disclaimer">
+                                <strong><em>We’ll also make sure no one records / takes photos so you have full access to our unique footage.</em></strong>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -216,77 +201,16 @@
                 <div class="row">
                     <div class="col-md-12">
                         <h2 class="heading-section">
-                            <span>But Wait... There’s More! Introducing the Fremont Theater</span>
+                            <span>But Wait...There’s More! Introducing the Fremont&nbsp;Theater</span>
                         </h2>
+                    </div>
+
+                    <div class="col-md-12">
                         <img src="./assets/images/overview/fremont.jpg">
-                        <p class="col-md-10 ml-auto mr-auto">Our local 900 patron venue, The Fremont Theater, has granted us access to encourage your show to have a Sneaky’s date along with a large theater show. This isn’t mandatory, but if you would like to get 2 shows back to back, we can make it happen. We’d love to discuss details when you’re ready to get 2 great shows dialed.</p>
                     </div>
-                </div>
-            </div>
-        </section>
-        <section class="section section-airbnb">
-            <div class="bkgd-mid-grey">
-                <div class="container loft">
-                    <div class="row">
-                        <div class="col-md-6 align-self-center">
-                            <h2 class="heading-section">
-                                <span>Go Ahead, Stay a While.</span>
-                            </h2>
-                            <p>Above the entire experience is the Sneaky Loft, a unique space with 2 beds, full kitchen, space to sprawl out and full bathroom of course. This is also 100% hidden, so don’t expect anyone to know you’re staying in the loft, as well as please don’t publicize that you are as well. Privacy is key to all of our experiences, so we please ask no content sharing of any kind.</p>
-                        </div>
 
-                        <div class="col-md-6">
-                            <img src="./assets/images/overview/gallery_airbnb_living_room.jpg">
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="bkgd-dark-grey">
-                <div class="container perks">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h2 class="heading-section">
-                                <span>The Sneaky Loft Perks Include</span>
-                            </h2>
-                        </div>
-
-                        <div class="col-md-4">
-                            <ul>
-                                <li>Queen + King Beds, 1 Bathroom</li>
-                                <li>Projector for Movies</li>
-                            </ul>
-                        </div>
-
-                        <div class="col-md-4">
-                            <ul>
-                                <li>TV &amp; Monitor for Work Stations</li>
-                                <li>Guitars &amp; Instruments</li>
-                            </ul>
-                        </div>
-
-                        <div class="col-md-4">
-                            <ul>
-                                <li>Surfboards &amp; Wetsuits</li>
-                                <li>SmartCar for Zipping Around Town</li>
-                            </ul>
-                        </div>
-
-                        <div class="col-md-12">
-                            <img src="./assets/images/overview/airbnb_toys.jpg">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="section section-about">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 offset-md-6">
-                        <h2 class="heading-section">
-                            <span>The Sneaky Dream to Reality...</span>
-                        </h2>
-                        <p>Local laugher Pete Ayer and producer Ernest Romero came together during the Covid lockdown to create what locals says “the funnest thing to hit San Luis Obispo, ever!” And how can we disagree? We’ve put our blood, sweat and laughs into this unique offering of a hidden comedy club that produces some of the funnest and unique experiences around. And we’re just getting started!</p>
+                    <div class="col-md-10 ml-auto mr-auto">
+                        <p>Our local 900 patron venue, The Fremont Theater, has granted us access to encourage your show to have a Sneaky’s date along with a large theater show. This isn’t mandatory, but if you would like to get 2 shows back to back, we can make it happen. We’d love to discuss details when you’re ready to get 2 great shows dialed.</p>
                     </div>
                 </div>
             </div>
@@ -297,7 +221,9 @@
         <div class="container sign-up">
             <div class="row">
                 <div class="col-md-12">
-                    <h2 class="heading-section with-border"><span>Are you Ready to be a part of the Sneaky Family?</span></h2>
+                    <h2 class="heading-section with-border">
+                        <span>Are you Ready to be a part of the Sneaky&nbsp;Family?</span>
+                    </h2>
                     <p>We can 100% guarnatee this spot is not going to last. Eventually the city, fire department, or the cops will stumble upon the best kept secret, and we’ll most likely be forced to have have these shows anymore. So don’t wait! Book a show with Ernie today, as we’re filling up the 2023 calendar very fast. We put on shows once a month, but will make opportunities to fit your touring schelde, etc.</p>
                     <p>Thanks for checking it out - keep it Sneaky!</p>
                     <a href="mailto:sneakyrsvp@gmail.com?subject=Something Sneaky This Way Comes">Email Sneaky's</a>
