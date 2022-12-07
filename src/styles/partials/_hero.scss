@@ -1,11 +1,24 @@
 // Partial - Hero
 .section-hero {
-    @include picture-scale(1800px, 1224px, './../../images/overview/hero.jpg');
-    min-height: 620px;
-    text-align: center;    
+    $heroHeight: 620px;
+    @include picture-scale(auto, $heroHeight, './../../images/overview/hero.jpg');
+    text-align: center;
+
+    .container {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+
+    .row {
+        min-height: $heroHeight;
+    }
     
     @include media-breakpoint-up(lg) {
-        min-height: 1200px;
+        $heroHeight: 1200px;
+        @include picture-scale(auto, $heroHeight, './../../images/overview/hero.jpg');
+        .row {
+            min-height: $heroHeight;
+        }
     }
 
     // logo
@@ -30,7 +43,7 @@
         
         @include media-breakpoint-up(lg) {
             font-size: 25px;
-            margin-top: 525px;
+            margin-top: 450px;
         }
     }
 }

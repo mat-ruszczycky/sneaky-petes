@@ -16,9 +16,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <link rel="canonical" href="https://sneaky.lol/">
     <title>Welcome - Sneaky Petes</title>
-    <meta name="description" content="Sneaky Pete’s is a well hidden, underground comedy club nesstled in downtown San Luis Obispo, California. We boast sellout, attentive crowds while filming your performance with 4k cameras for your use, as we do not publicize our venue, shows, nor experience. This website is for your eyes only, please. We keep everything SNEAKY around these parts!">
+    <meta name="description" content="Sneaky Pete&#x27;s is a well hidden, underground comedy club nesstled in downtown San Luis Obispo, California.">
     <meta property="og:title" content="Sneaky Petes">
-    <meta property="og:description" content="Sneaky Pete’s is a well hidden, underground comedy club nesstled in downtown San Luis Obispo, California. We boast sellout, attentive crowds while filming your performance with 4k cameras for your use, as we do not publicize our venue, shows, nor experience. This website is for your eyes only, please. We keep everything SNEAKY around these parts!">
+    <meta property="og:description" content="Sneaky Pete&#x27;s is a well hidden, underground comedy club nesstled in downtown San Luis Obispo, California.">
     <meta property="og:url" content="https://sneaky.lol/">
     <meta property="og:locale" content="en_US">
     <meta property="og:image" content="https://sneaky.lol/assets/images/meta/og.png">
@@ -54,14 +54,18 @@
                     </div>
 
                     <div class="col-md-6">
-                        <img class="venue-image" src="./assets/images/overview/gallery_bartender.jpg">
-                        <p class="venue-caption">Open Bar &amp; Custom Cocktails</p>
+                        <div class="venue-record">
+                            <img class="venue-image" src="./assets/images/overview/gallery_bartender.jpg">
+                            <p class="venue-caption">Open Bar &amp; Custom Cocktails</p>
+                        </div>
                     </div>
 
                     <div class="col-md-6">
-                        <img class="venue-image" src="./assets/images/overview/gallery_stage.jpg">
-                        <p class="venue-caption">Intimate Room fits 80 patrons</p>
-                        <img class="venue-image" src="./assets/images/overview/gallery_hey_man.jpg">
+                        <div class="venue-record">
+                            <img class="venue-image" src="./assets/images/overview/gallery_stage.jpg">
+                            <p class="venue-caption">Intimate Room fits 80 patrons</p>
+                            <img class="venue-image" src="./assets/images/overview/gallery_hey_man.jpg">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -181,7 +185,7 @@
                             </h2>
                         </div>
 
-                        <div class="col-md-10 ml-auto mr-auto">
+                        <div class="col-md-12 col-lg-10 ml-auto mr-auto">
                             <p>We’ve pulled out all the smoke and mirrors to make our room the best comedy experience. Starting with an invite-only event, our audience is here for comedy alone. Additionally, we are not telling the crowd who’s performing, so it’s a complete surprise when we bring you out of the side door. This room is a unqiue spot where you can bring your best but also have the full freedom to play and create with a hot room. We give you as much time as you want, it will be filmed accordingly (only for you to have), with entrance and exit footage. <strong>Content is King!</strong> To top it off, we have an apartment above the room for your stay and for pre/post show lounging, which has a private bedroom and bathroom.</p>
                         </div>
 
@@ -209,7 +213,7 @@
                         <img src="./assets/images/overview/fremont.jpg">
                     </div>
 
-                    <div class="col-md-10 ml-auto mr-auto">
+                    <div class="col-md-12 col-lg-10 ml-auto mr-auto">
                         <p>Our local 900 patron venue, The Fremont Theater, has granted us access to encourage your show to have a Sneaky’s date along with a large theater show. This isn’t mandatory, but if you would like to get 2 shows back to back, we can make it happen. We’d love to discuss details when you’re ready to get 2 great shows dialed.</p>
                     </div>
                 </div>
@@ -277,7 +281,7 @@
                         <h2 class="heading-section">
                             <span>The Sneaky Dream to&nbsp;Reality...</span>
                         </h2>
-                        <p>Local laugher Pete Ayer and producer Ernest Romero came together during the Covid lockdown to create what locals says “the funnest thing to hit San Luis Obispo, ever!” And how can we disagree? We’ve put our blood, sweat and laughs into this unique offering of a hidden comedy club that produces some of the funnest and unique experiences around. And we’re just getting started!</p>
+                        <p>Local laugher Pete Ayer and producer Ernest Romero came together during the Covid lockdown to create what locals says <strong><em>“the funnest thing to hit San Luis Obispo, ever!”</em></strong> And how can we disagree? We’ve put our blood, sweat and laughs into this unique offering of a hidden comedy club that produces some of the funnest and unique experiences around. And we’re just getting started!</p>
                     </div>
                 </div>
             </div>
@@ -291,6 +295,9 @@
                     <h2 class="heading-section with-border">
                         <span>Are you Ready to be a part of the Sneaky&nbsp;Family?</span>
                     </h2>
+                </div>
+
+                <div class="col-md-10 ml-auto mr-auto">
                     <p>We can 100% guarnatee this spot is not going to last. Eventually the city, fire department, or the cops will stumble upon the best kept secret, and we’ll most likely be forced to have have these shows anymore. So don’t wait! Book a show with Ernie today, as we’re filling up the 2023 calendar very fast. We put on shows once a month, but will make opportunities to fit your touring schelde, etc.</p>
                     <p>Thanks for checking it out - keep it Sneaky!</p>
                     <a href="mailto:sneakyrsvp@gmail.com?subject=Something Sneaky This Way Comes">Email Sneaky's</a>

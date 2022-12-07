@@ -1,14 +1,24 @@
 // Partial - Venue
 .section-venue { 
+    .container {
+        padding-top: 0 !important;
+    }
+
+    .venue-record {
+        margin-top: 1.5rem;;
+    }
+
     .venue-caption,
     .venue-image {
         text-align: center;
+      
     }
 
     .venue-image {
+        margin-top: 1rem;
     }
 
     .venue-caption {
-
+        margin-top: 0;
     }
 }

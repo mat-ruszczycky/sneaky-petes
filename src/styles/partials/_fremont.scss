@@ -1,4 +1,17 @@
 // Partial - Fremont
 .section-fremont { 
     text-align: center;
+
+    .container {
+        @include media-breakpoint-up(lg) {
+            padding-top: 120px !important;
+            padding-bottom: 120px !important;
+        }
+    }
+
+   
+
+    img {
+        margin-top: 50px;
+    }
 }

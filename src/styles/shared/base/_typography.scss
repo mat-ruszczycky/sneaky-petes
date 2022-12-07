@@ -9,7 +9,6 @@
 html {
     font-size: 140%;
     font-family: 'Gotham Thin', sans-serif;
-    font-weight: 300;
     font-style: normal;
   }
 
@@ -58,7 +57,7 @@ ol {
 
 ul li,
 ol li {
-    line-height: 1.55em;
+    line-height: 1.75em;
 }
 
 ul ul,
@@ -95,16 +94,15 @@ table th {
 
     span {
         font-family: 'Gotham', sans-serif;
-        font-weight: 500;
         font-size: 32px;
     }
 
     &.with-border {
         &:before {
             content: " ";
-            border-bottom: 3px solid #b60001;
+            border-bottom: 2px solid #b60001;
             display: block;
-            top: 10px;
+            top: 13px;
             position: absolute;
             width: 100%;
             margin: 0;

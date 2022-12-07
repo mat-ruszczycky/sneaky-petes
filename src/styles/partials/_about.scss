@@ -2,4 +2,12 @@
 .section-about {   
     // @include picture-scale(1800px, 1224px, './../../images/overview/about.jpg');
     // min-height: 400px;
+
+    h2 {
+        text-align: left;
+    }
+
+    p {
+        margin: 0;
+    }
 }
