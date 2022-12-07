@@ -2,11 +2,13 @@
 .section-venue { 
     .venue-caption,
     .venue-image {
-        line-height: 1em;
         text-align: center;
     }
 
     .venue-image {
-        margin-top: 1em;
+    }
+
+    .venue-caption {
+
     }
 }

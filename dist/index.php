@@ -215,6 +215,73 @@
                 </div>
             </div>
         </section>
+        <section class="section section-airbnb">
+            <div class="bkgd-mid-grey">
+                <div class="container loft">
+                    <div class="row">
+                        <div class="col-md-6 align-self-center">
+                            <h2 class="heading-section">
+                                <span>Go Ahead, Stay a&nbsp;While.</span>
+                            </h2>
+                            <p>Above the entire experience is the Sneaky Loft, a unique space with 2 beds, full kitchen, space to sprawl out and full bathroom of course. This is also 100% hidden, so don’t expect anyone to know you’re staying in the loft, as well as please don’t publicize that you are as well. Privacy is key to all of our experiences, so we please ask no content sharing of any kind.</p>
+                        </div>
+
+                        <div class="col-md-6">
+                            <img src="./assets/images/overview/gallery_airbnb_living_room.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bkgd-dark-grey">
+                <div class="container perks">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2 class="heading-section">
+                                <span>The Sneaky Loft Perks&nbsp;Include</span>
+                            </h2>
+                        </div>
+
+                        <div class="col-md-4">
+                            <ul>
+                                <li>Queen + King Beds, 1 Bathroom</li>
+                                <li>Projector for Movies</li>
+                            </ul>
+                        </div>
+
+                        <div class="col-md-4">
+                            <ul>
+                                <li>TV &amp; Monitor for Work Stations</li>
+                                <li>Guitars &amp; Instruments</li>
+                            </ul>
+                        </div>
+
+                        <div class="col-md-4">
+                            <ul>
+                                <li>Surfboards &amp; Wetsuits</li>
+                                <li>SmartCar for Zipping Around Town</li>
+                            </ul>
+                        </div>
+
+                        <div class="col-md-12">
+                            <img src="./assets/images/overview/airbnb_toys.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section section-about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 offset-md-6">
+                        <h2 class="heading-section">
+                            <span>The Sneaky Dream to&nbsp;Reality...</span>
+                        </h2>
+                        <p>Local laugher Pete Ayer and producer Ernest Romero came together during the Covid lockdown to create what locals says “the funnest thing to hit San Luis Obispo, ever!” And how can we disagree? We’ve put our blood, sweat and laughs into this unique offering of a hidden comedy club that produces some of the funnest and unique experiences around. And we’re just getting started!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer id="footer" data-mr-component="footer">

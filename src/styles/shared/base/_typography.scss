@@ -1,13 +1,17 @@
 // Base - typography
+// https://www.cdnfonts.com/gotham.font
+// https://raw.githubusercontent.com/devinhunt/typebase.css/master/typebase.css
 
 //  Font Definitions
-// https://www.cdnfonts.com/gotham.font
 @import url('https://fonts.cdnfonts.com/css/gotham?styles=17585,17591,17592');
 
-// Generic
-* {
+/* Global */
+html {
+    font-size: 140%;
     font-family: 'Gotham Thin', sans-serif;
-}
+    font-weight: 300;
+    font-style: normal;
+  }
 
 // Headings
 h1,
@@ -15,40 +19,82 @@ h2,
 h3,
 h4,
 h5,
-h6,
-ul,
-ol,
-a,
-button,
+h6 {
+    font-size: 100%;
+    margin-top: 1.55rem;
+    margin-bottom: 0;
+    line-height: 1.55rem;
+}
+
+h1 {}
+
+h2 {}
+
+h3 {}
+
+h4 {}
+
+h5 {}
+
+h6 {}
+
+/* Copy */
 p {
-    font-weight: 300;
-    font-size: 18px;
-    
-    @include media-breakpoint-up(lg) {
-        font-size: 22px;
+    line-height: 1.95rem;
+    margin-top: 1.95rem;
+    margin-bottom: 0;
+
+    strong {
+        font-family: 'Gotham', sans-serif;
     }
 }
 
-p {
-    line-height: 1.95em;
+// Lists
+ul,
+ol {
+    margin-top: 1.55rem;
+    margin-bottom: 1.55rem;
 }
 
-ul,
-ol,
-dl {
+ul li,
+ol li {
     line-height: 1.55em;
 }
 
-strong {
-    font-family: 'Gotham', sans-serif !important;
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
+blockquote {
+    line-height: 1.55rem;
+    margin-top: 1.55rem;
+    margin-bottom: 1.55rem;
+}
+
+/* Tables */
+table {
+    margin-top: 1.5rem;
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+
+table td,
+table th {
+    padding: 0;
+    line-height: 33px;
+}
+
+// Type Specs
 .heading-section {
     position: relative;
     text-align: center;
 
     span {
-        font-family: 'Gotham', sans-serif !important;
+        font-family: 'Gotham', sans-serif;
         font-weight: 500;
         font-size: 32px;
     }

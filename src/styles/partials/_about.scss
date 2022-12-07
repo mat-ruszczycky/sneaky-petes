@@ -1,32 +1,5 @@
 // Partial - About
 .section-about {   
-    @include picture-scale(1800px, 1224px, './../../images/overview/about.jpg');
-    min-height: 400px;
-
-    h2,
-    p,
-    span {
-        text-align: center;
-    }
-    
-    h2 {
-        margin-top: 450px;
-    }
-
-    @include media-breakpoint-up(md) {
-        h2 {
-            margin-top: 0;
-        }
-
-        h2,
-        p,
-        span {
-            text-align: left;
-        }
-    }
-
-    @include media-breakpoint-up(lg) {
-        margin-top: 200px;
-        min-height: 1200px;
-    }
+    // @include picture-scale(1800px, 1224px, './../../images/overview/about.jpg');
+    // min-height: 400px;
 }
