@@ -32,6 +32,7 @@
         <meta name="robots" content="noindex, nofollow" />
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+        <title>Welcome - Sneaky Petes</title>
         <link href="../assets/built/styles/main.built.css" rel="stylesheet">
         <style type="text/css">
             body {

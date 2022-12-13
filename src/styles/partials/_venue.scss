@@ -19,7 +19,15 @@
         object-fit: cover;
         
         &.tall {
-            aspect-ratio: 1.8 / 2.21;
+            aspect-ratio: 1.8 / 2.39;
+
+            @include media-breakpoint-up(lg) {
+                aspect-ratio: 1.8 / 2.26;
+            }
+
+            @include media-breakpoint-up(xl) {
+                aspect-ratio: 1.8 / 2.19;
+            }
         }
 
         &.short {

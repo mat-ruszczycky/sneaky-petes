@@ -13,7 +13,7 @@
         redirectToLogin();
     } else {
 		// 10 minutes = TIMEOUT_MINS * 60 seconds = Timeout in seconds
-		 if(time() - $_SESSION['loginTimeStamp'] > (TIMEOUT_MINS * 60)) {
+		if(time() - $_SESSION['loginTimeStamp'] > (TIMEOUT_MINS * 60)) {
 			session_unset();
 			session_destroy();
 			redirectToLogin();
@@ -143,7 +143,7 @@
                             </ul>
                         </div>
 
-                        <div class="comendian-lineup">
+                        <div class="comendian-lineup odd-one-out">
                             <ul>
                                 <li>Ralph Guerra</li>
                                 <li>Hannah Rose</li>
@@ -260,14 +260,14 @@
             <div class="bkgd-mid-grey">
                 <div class="container loft">
                     <div class="row">
-                        <div class="col-lg-6 align-self-center">
+                        <div class="col-lg-5 align-self-center">
                             <h2 class="heading-section">
                                 <span>Go Ahead, Stay a&nbsp;While.</span>
                             </h2>
                             <p>Above the entire experience is the Sneaky Loft, a unique space with 2 beds, full kitchen, space to sprawl out and full bathroom of course. This is also 100% hidden, so don’t expect anyone to know you’re staying in the loft, as well as please don’t publicize that you are as well. Privacy is key to all of our experiences, so we please ask no content sharing of any kind.</p>
                         </div>
 
-                        <div class="col-lg-6 align-self-center">
+                        <div class="col-lg-7 align-self-center">
                             <img src="./assets/images/overview/gallery_airbnb_living_room.jpg">
                         </div>
                     </div>
@@ -314,7 +314,7 @@
         <section class="section section-about">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-5 offset-lg-7 col-md-12 offset-md-0 align-self-center">
+                    <div class="col-xl-5 offset-xl-7 col-lg-12 offset-lg-0 align-self-center">
                         <div>
                             <h2 class="heading-section">
                                 <span>The Sneaky Dream to&nbsp;Reality...</span>
