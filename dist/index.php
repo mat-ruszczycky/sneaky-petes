@@ -55,16 +55,17 @@
 
                     <div class="col-md-6">
                         <div class="venue-record">
-                            <img class="venue-image" src="./assets/images/overview/gallery_bartender.jpg">
+                            <img class="venue-image tall" src="./assets/images/overview/gallery_bartender.jpg">
                             <p class="venue-caption">Open Bar &amp; Custom Cocktails</p>
                         </div>
                     </div>
 
                     <div class="col-md-6">
                         <div class="venue-record">
-                            <img class="venue-image" src="./assets/images/overview/gallery_stage.jpg">
+                            <img class="venue-image short" src="./assets/images/overview/gallery_stage.jpg">
                             <p class="venue-caption">Intimate Room fits 80 patrons</p>
-                            <img class="venue-image" src="./assets/images/overview/gallery_hey_man.jpg">
+                            <img class="venue-image short" src="./assets/images/overview/gallery_hey_man.jpg">
+                            <p class="venue-caption">Intimate Room fits 80 patrons</p>
                         </div>
                     </div>
                 </div>
@@ -299,7 +300,7 @@
         <section class="section section-about">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 offset-md-6">
+                    <div class="col-lg-5 offset-lg-7 col-md-12 offset-md-0 align-self-center">
                         <div>
                             <h2 class="heading-section">
                                 <span>The Sneaky Dream to&nbsp;Reality...</span>
