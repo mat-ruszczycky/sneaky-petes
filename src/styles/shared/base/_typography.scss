@@ -10,7 +10,7 @@ html {
     font-size: 140%;
     font-family: 'Gotham Thin', sans-serif;
     font-style: normal;
-  }
+}
 
 // Headings
 h1,
@@ -20,9 +20,9 @@ h4,
 h5,
 h6 {
     font-size: 100%;
+    line-height: 1.55rem;
     margin-top: 1.55rem;
     margin-bottom: 0;
-    line-height: 1.55rem;
 }
 
 h1 {}
@@ -40,7 +40,7 @@ h6 {}
 /* Copy */
 p {
     line-height: 1.95rem;
-    margin-top: 1.95rem;
+    margin-top: 1.55rem;
     margin-bottom: 0;
 
     strong {
@@ -100,8 +100,8 @@ table th {
     &.with-border {
         &:before {
             content: " ";
-            border-bottom: 2px solid #b60001;
             display: block;
+            border-bottom: 2px solid #b60001;
             top: 13px;
             position: absolute;
             width: 100%;

@@ -3,19 +3,18 @@
     text-align: center;
 
     .spec-record {
+        position: relative;
         border-radius: 18px;
         background-color: #212121;
-        box-sizing: border-box;
         min-height: 120px;
         margin-top: 40px;
-        position: relative;
-        
+          
         p {
             position: absolute;
-            top: 50%;
-            transform: translateY(-50%);
             width: 100%;
+            top: 50%;
             left: 0;
+            transform: translateY(-50%);
             padding: 10px;
             font-size: 18px;
             line-height: 1rem;
@@ -26,5 +25,6 @@
     .disclaimer {
         font-size: 14px;
         margin-top: 40px;
+        line-height: .75rem;
     }
 }

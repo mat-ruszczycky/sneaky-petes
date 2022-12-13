@@ -1,18 +1,33 @@
 // Partial - Airbnb
 .section-airbnb { 
-    
     .container {
         &.loft {
+            text-align: center;
             padding-top: 100px;
-            padding-bottom: 80px;
-            text-align: right;
+            padding-bottom: 80px; 
+
+            @include media-breakpoint-up(lg) {
+                text-align: right;
+            }
 
             h2 {
-                text-align: right;
+                text-align: center;
+
+                @include media-breakpoint-up(lg) {
+                    text-align: right;
+                }
             }
         
             p {
                 margin: 0;
+            }
+
+            img {
+                margin-top: 40px;
+
+                @include media-breakpoint-up(lg) {
+                    margin-top: 0;
+                }
             }
         }
 
