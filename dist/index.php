@@ -1,10 +1,24 @@
 <?php
     session_start();
-    
-    if (!isset($_SESSION['user'])) {
+
+	// Constants
+    define('TIMEOUT_MINS', 10);
+
+	function redirectToLogin() {
         header('Location: ./api/login.php');
         exit;
-    } 
+    }
+    
+    if (!isset($_SESSION['user'])) {
+        redirectToLogin();
+    } else {
+		// 10 minutes = TIMEOUT_MINS * 60 seconds = Timeout in seconds
+		 if(time() - $_SESSION['loginTimeStamp'] > (TIMEOUT_MINS * 60)) {
+			session_unset();
+			session_destroy();
+			redirectToLogin();
+		}
+	}
 ?>
 
 <!DOCTYPE html>

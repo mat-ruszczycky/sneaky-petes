@@ -1,4 +1,6 @@
 <?php
+    session_start();
+
     // Constants
     define('PASS', '0cfbd712ab1a5c57be52900cddfca0f492ea598e');
 
@@ -7,10 +9,15 @@
     $msgs = array('Nope.', 'Try again.', 'Do you even lift Bro?', 'Uh uh.', 'You didn\'t say the magic word.');
 
     // Simple login logic
-    if (! empty($_POST['login'])) {
-        if(sha1($_REQUEST['pass']) === PASS){
-            session_start();
+    if (!empty($_POST['login'])) {
+        if(sha1(filter_var($_REQUEST['pass'], FILTER_SANITIZE_STRING)) === PASS){
+            // Store session
             $_SESSION['user'] = true;
+            
+            // Login time is stored in a session variable
+            $_SESSION["loginTimeStamp"] = time(); 
+            
+            // Redirect back to home
             header('Location: ./../');
             exit;
         }
