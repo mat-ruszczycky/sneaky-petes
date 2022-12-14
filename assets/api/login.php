@@ -4,12 +4,23 @@
     // Constants
     define('PASS', '0cfbd712ab1a5c57be52900cddfca0f492ea598e');
 
+    // Functions
+    function redirectToHome() {
+        header('Location: ./../');
+        exit;
+    }
+
     // Props
     $heading = 'What is the air-speed velocity of an unladen swallow?';
-    $msgs = array('Nope.', 'Try again.', 'Do you even lift Bro?', 'Uh uh.', 'You didn\'t say the magic word.');
+    $msgs = array('Nope.', 'Try again.', 'Uh uh.', 'You didn\'t say the magic word.');
 
-    // Simple login logic
-    if (!empty($_POST['login'])) {
+    // Page access logic
+    if (isset($_SESSION['user'])) {
+        redirectToHome();
+    }
+
+    // Basic login logic
+    if (isset($_POST['login'])) {
         if(sha1(filter_var($_REQUEST['pass'], FILTER_SANITIZE_STRING)) === PASS){
             // Store session
             $_SESSION['user'] = true;
@@ -18,7 +29,7 @@
             $_SESSION["loginTimeStamp"] = time(); 
             
             // Redirect back to home
-            header('Location: ./../');
+            redirectToHome();
             exit;
         }
 
@@ -77,7 +88,7 @@
                 display: inline-block;
                 background-color: #b20001;
                 text-align: center;
-                text-transform: captialcase;
+                text-transform: capitalize;
                 outline: none;
                 border: 0;
                 border-radius: 14px;
@@ -89,10 +100,7 @@
     </head>
 
     <body>
-        <img class="logo" src="../assets/images/overview/hero_logo.png">
-
         <h1><?php echo $heading; ?></h1>
-        
         <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post">
             <input type="password" name="pass" placeholder="Answer">
             <input type="submit" name="login" value="Let Me In">

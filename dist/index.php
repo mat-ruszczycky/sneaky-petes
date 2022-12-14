@@ -4,15 +4,17 @@
 	// Constants
     define('TIMEOUT_MINS', 10);
 
+	// Functions
 	function redirectToLogin() {
         header('Location: ./api/login.php');
         exit;
     }
     
+	// Basic login logic
     if (!isset($_SESSION['user'])) {
         redirectToLogin();
     } else {
-		// 10 minutes = TIMEOUT_MINS * 60 seconds = Timeout in seconds
+		// TIMEOUT_MINS * 60 seconds = Timeout in seconds
 		if(time() - $_SESSION['loginTimeStamp'] > (TIMEOUT_MINS * 60)) {
 			session_unset();
 			session_destroy();
@@ -53,7 +55,7 @@
                     </div>
 
                     <div class="col-lg-12 col-xl-9 ml-auto mr-auto">
-                        <p>Welcome to your new favorite comedic playground. Sneaky Pete’s is a well hidden, underground comedy club nesstled in downtown San Luis Obispo, California. We boast sellout, attentive crowds while filming your performance with 4k cameras for your use, as we do not publicize our venue, shows, nor experience. This website is for your eyes only, please. We keep everything SNEAKY around these parts!</p>
+                        <p>Welcome to your new favorite comedic playground. Sneaky Pete’s is a well hidden, underground comedy club nestled in downtown San Luis Obispo, California. We boast sellout, attentive crowds while filming your performance with 4k cameras for your use, as we do not publicize our venue, shows, nor experience. This website is for your eyes only, please. We keep everything SNEAKY around these parts!</p>
                     </div>
                 </div>
             </div>
@@ -97,6 +99,7 @@
                     <div class="col-md-12">
                         <div class="comendian-lineup">
                             <ul>
+                                <li>Audrey Stewart</li>
                                 <li>Saul Trujillo</li>
                                 <li>Ryan Goodcase</li>
                                 <li>Justin James</li>
@@ -116,6 +119,7 @@
                                 <li>Nick Malizia</li>
                                 <li>Sam Goldstein</li>
                                 <li>Divesh Patel</li>
+                                <li>Todd Doram</li>
                             </ul>
                         </div>
 
@@ -128,6 +132,7 @@
                                 <li>Ben Herwitz</li>
                                 <li>Jay Light</li>
                                 <li>Danny Dunn</li>
+                                <li>Jordan Macdonald</li>
                             </ul>
                         </div>
 
@@ -140,6 +145,7 @@
                                 <li>Brett Dodenhoff</li>
                                 <li>Bryson Banks</li>
                                 <li>Cori Ramsay</li>
+                                <li>Brandon Legendre</li>
                             </ul>
                         </div>
 
@@ -201,7 +207,7 @@
                         </div>
 
                         <div class="col-md-12 col-lg-10 ml-auto mr-auto">
-                            <p>We’ve pulled out all the smoke and mirrors to make our room the best comedy experience. Starting with an invite-only event, our audience is here for comedy alone. Additionally, we are not telling the crowd who’s performing, so it’s a complete surprise when we bring you out of the side door. This room is a unqiue spot where you can bring your best but also have the full freedom to play and create with a hot room. We give you as much time as you want, it will be filmed accordingly (only for you to have), with entrance and exit footage. <strong>Content is King!</strong> To top it off, we have an apartment above the room for your stay and for pre/post show lounging, which has a private bedroom and bathroom.</p>
+                            <p>We’ve pulled out all the smoke and mirrors to make our room the best comedy experience. Starting with an invite-only event, our audience is here for comedy alone. Additionally, we are not telling the crowd who’s performing, so it’s a complete surprise when we bring you out of the side door. This room is a unique spot where you can bring your best but also have the full freedom to play and create with a hot room. We give you as much time as you want, it will be filmed accordingly (only for you to have), with entrance and exit footage. <strong>Content is King!</strong> To top it off, we have an apartment above the room for your stay and for pre/post show lounging, which has a private bedroom and bathroom.</p>
                         </div>
 
                         <div class="col-lg-3">
@@ -337,7 +343,7 @@
                 </div>
 
                 <div class="col-md-10 ml-auto mr-auto">
-                    <p>We can 100% guarnatee this spot is not going to last. Eventually the city, fire department, or the cops will stumble upon the best kept secret, and we’ll most likely be forced to have have these shows anymore. So don’t wait! Book a show with Ernie today, as we’re filling up the 2023 calendar very fast. We put on shows once a month, but will make opportunities to fit your touring schelde, etc.</p>
+                    <p>We can 100% guarantee this spot is not going to last. Eventually the city, fire department, or the cops will stumble upon the best kept secret, and we’ll most likely be forced to have have these shows anymore. So don’t wait! Book a show with Ernie today, as we’re filling up the 2023 calendar very fast. We put on shows once a month, but will make opportunities to fit your touring schedule, etc.</p>
                     <p>Thanks for checking it out - keep it Sneaky!</p>
                     <a href="mailto:sneakyrsvp@gmail.com?subject=Something Sneaky This Way Comes">Email Sneaky's</a>
                 </div>
