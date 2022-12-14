@@ -90,7 +90,7 @@ gulp.task(GulpConfig.task.buildContent, function() {
 			}
 		}))
 		.pipe(plugins.rename({
-			extname: '.html',
+			extname: '.php',
 			suffix: ''
 		}))
 		.pipe(htmlbeautify({

@@ -1,6 +1,6 @@
 {
-	"name": "project-name-goes-here",
-	"description": "The PROJECT-NAME-GOES-HERE project.",
+	"name": "sneaky-petes",
+	"description": "The Sneaky Petes comedy project.",
 	"version": "1.0.0",
 	"scripts": {
 		"preview": "open http://localhost:9090/",
@@ -8,9 +8,7 @@
 		"commit-checkpoint": "git add . && git commit -m 'dev: checkpoint' && git push",
 		"clean": "rm -rf dist/*",
 		"build": "npm run clean && gulp",
-		"watch": "npm run build && gulp watch",
-		"ftp": "cd dist/ && open . && cd /Applications && open Transmit.app",
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"watch": "npm run build && gulp watch"
 	},
 	"registry": "https://registry.npmjs.org/",
 	"devDependencies": {

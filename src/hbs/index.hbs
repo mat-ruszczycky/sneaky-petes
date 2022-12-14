@@ -1,9 +1,12 @@
 {{#extend "shared/templates/page" content=config}}
 	{{#content "body:main:content" mode="replace"}}
-		<div>
-			<div>
-				{{> 'partials/partial-name'}}
-			</div>
-		</div>
+		{{> 'partials/hero'}}
+		{{> 'partials/venue'}}
+		{{> 'partials/comedians'}}
+		{{> 'partials/moments'}}
+		{{> 'partials/specs'}}
+		{{> 'partials/fremont'}}
+		{{> 'partials/airbnb'}}
+		{{> 'partials/about'}}
 	{{/content}}
 {{/extend}}

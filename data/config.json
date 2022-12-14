@@ -1,15 +1,15 @@
 {
 	"metadata": {
 		"assets": ".",
-		"notIndex": false,
-		"title": "Project Name Goes Here",
-		"meta-title": "ProjectNameGoesHere",
-		"url": "http://site-name.com/",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"notIndex": true,
+		"title": "Sneaky Petes",
+		"meta-title": "Sneaky Petes",
+		"url": "https://sneaky.lol/",
+		"description": "Sneaky Pete's is a well hidden, underground comedy club nesstled in downtown San Luis Obispo, California.",
 		"locale": {
 			"lang": "en",
 			"country": "US"
 		},
-		"contact": "hello@site-name.com"
+		"contact": "sneakyrsvp@gmail.com"
 	}
 }
