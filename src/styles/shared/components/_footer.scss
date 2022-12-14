@@ -1,16 +1,15 @@
 // Component - component-name
 #footer {
-    font-size: 18px;
     text-align: center;
-    
-    @include media-breakpoint-up(lg) {
-        font-size: 25px;
+
+    .footer-logo {
+        width: 202px; 
+        display: inline-block; 
+        margin-top: 64px;
     }
 
-    
-
     .container {
-        padding-top: 60px;
+        padding-top: 30px;
         padding-bottom: 60px;
         
         &.sign-up {
@@ -19,11 +18,11 @@
                 background-color: #b20001;
                 text-align: center;
                 padding: 17px 40px;
-                font-size: 14px;
+                font-size: 15px;
                 text-transform: uppercase;
                 outline: none;
                 border: 0;
-                border-radius: 14px;
+                border-radius: 8px;
                 margin-top: 40px;
             }
         }
@@ -33,10 +32,16 @@
         &.byline {
             background-color: #b20001;
             text-align: center;
-            padding-top: 30px;
-            padding-bottom: 30px;
-            font-size: 14px;
-            text-transform: uppercase;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            
+            p {
+                text-transform: uppercase;
+                font-size: 14px;
+                line-height: 1rem;
+                letter-spacing: .2rem;
+                margin: 0;
+            }
         }
     }
 }

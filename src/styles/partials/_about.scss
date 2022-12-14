@@ -1,7 +1,31 @@
-// Partial - partial-name
-.section-about { 
-    .container {
-        padding-top: 60px;
-        padding-bottom: 60px;
+// Partial - About
+.section-about {   
+    @include picture-scale(1800px, 1000px, './../../images/overview/about.jpg');
+    text-align: center;
+
+    @include media-breakpoint-up(xl) {
+        background-position: center center;
+    }
+
+    .row {
+        min-height: 1000px;
+    }
+
+
+    @include media-breakpoint-up(xl) {
+        text-align: left;
+    }
+
+    h2 {
+        margin-top: 25vh;
+        
+        @include media-breakpoint-up(xl) {
+            margin-top: 0;
+            text-align: left;
+        }
+    }
+
+    p {
+        margin: 0;
     }
 }

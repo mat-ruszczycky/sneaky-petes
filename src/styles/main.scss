@@ -1,6 +1,6 @@
 @charset 'utf-8';
 
-// Base(s)
+// Base
 @import 'shared/base/utils';
 @import 'shared/base/normalize';
 @import 'shared/base/grid';
@@ -10,9 +10,6 @@
 
 // Component(s)
 @import 'shared/components/footer';
-
-// Template(s)
-// @import 'shared/templates/template-name';
 
 // Partial(s)
 @import 'partials/hero';

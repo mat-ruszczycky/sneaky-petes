@@ -1,6 +1,5 @@
 # SNEAKY PETES
 ---
-**Trello Tracker:** (https://trello.com/)
 
 ## Local Preview
 ---
@@ -14,11 +13,11 @@ A basic HTTP server can be enabled for local previewing. Server side languages a
 
 ## Stage Preview
 ---
-**URL:** (#)
+**URL:** Stage (#N/A)
 
 ## Live
 ---
-**URL:** (#)
+**URL:** Live (https://sneaky.lol/)
 
 ## Supported Viewports
 ---

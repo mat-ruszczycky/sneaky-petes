@@ -16,13 +16,18 @@ html {
             width: 100%;
         }
 
-        main {
-     
+        main {  
             .section {
                 position: relative;
+
+                .container {
+                    padding-top: 25px;
+                    padding-bottom: 25px;
             
-                .row {
-                    
+                    @include media-breakpoint-up(lg) {
+                        padding-top: 60px;
+                        padding-bottom: 60px;
+                    }
                 }
             }
         }   
@@ -32,7 +37,7 @@ html {
 // Backgrounds
 .bkgd-red-grad {
     background: rgb(75,0,0);
-    background: linear-gradient(0deg, rgba(75,0,0,1) 30%, rgba(0,0,0,0) 110%);
+    background: linear-gradient(0deg, rgba(75,0,0,1) 30%, rgba(0,0,0,0) 95%);
 }
 
 .bkgd-dark-grey {

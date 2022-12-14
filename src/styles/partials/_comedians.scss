@@ -1,34 +1,31 @@
-// Partial - partial-name
+// Partial - Comedians
 .section-comedians {
-    font-size: 18px;
-    
-    @include media-breakpoint-up(lg) {
-        font-size: 25px;
-    }
-    
     .comendian-lineup {
        text-align: center;
-       margin-top: 40px;
+       margin-top: 30px;
+
+       @include media-breakpoint-up(md) {
+            width: 50%;
+            float: left;
+            margin-top: 40px;
+
+            &.odd-one-out {
+                width: 100%;
+            }
+        }
         
         @include media-breakpoint-up(lg) {
             width: 20%;
-            float: left;
+
+            &.odd-one-out {
+                width: 20%;
+            }
         }
 
         ul {
             list-style: none;
             margin: 0;
             padding: 0 15px;
-        }
-    }
-    
-    .container {
-        padding-top: 40px;
-        padding-bottom: 40px;
-
-        @include media-breakpoint-up(lg) {
-            padding-top: 60px;
-            padding-bottom: 60px;
         }
     }
 }
