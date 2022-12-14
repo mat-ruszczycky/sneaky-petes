@@ -58,13 +58,6 @@
                 margin-top: 40px;
             }
 
-            .logo {
-                width: 100%;
-                display: block;
-                margin: 0 auto;
-                max-width: 320px;
-            }
-
             form {
                 width: 95%;
                 margin: 0 auto;
@@ -77,9 +70,6 @@
                 font-size: 18px;
                 padding: 4% 5%;
                 min-height: 40px;
-            }
-
-            input[type="password"] {
                 width: 100%;
                 border-radius: 14px;
             }
@@ -91,10 +81,8 @@
                 text-transform: capitalize;
                 outline: none;
                 border: 0;
-                border-radius: 14px;
                 margin-top: 40px;
                 color: #fff;
-                width: 100%;
             }
         </style>
     </head>
