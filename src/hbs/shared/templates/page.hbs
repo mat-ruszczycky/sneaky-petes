@@ -58,13 +58,13 @@
 	{{#block "body"}}
 		<body class="page theme-dark {{#block "body:class"}}{{/block}}">
 			{{#block "body:main"}}
-				<main id="main">
+				<main id="main" role="main">
 					{{#block "body:main:content"}}{{/block}}
 				</main>
 			{{/block}}
 
 			{{#block "body:footer"}}
-				{{> "shared/components/footer"}}
+				{{> "shared/partials/footer"}}
 			{{/block}}
 
 			{{#block "body:scripts"}}
