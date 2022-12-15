@@ -23,7 +23,9 @@ const Main = () => {
     window.addEventListener('keydown', function(e){
         if (KeyMap.codex.escape === e.keyCode) {
             modals.forEach((modal) => {
-                modal.closeModal();
+                if (modal._isModalOpen) {
+                    modal.closeModal();
+                }
             });
         }
     });
