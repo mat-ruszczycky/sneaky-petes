@@ -17,7 +17,7 @@ const Main = () => {
     let modals = [];
 
     videos.forEach((el) => {
-        modals.push(new Modal(el))
+        modals.push(new Modal(el));
     });
 
     window.addEventListener('keydown', function(e){
