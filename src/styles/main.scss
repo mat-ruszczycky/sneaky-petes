@@ -8,15 +8,18 @@
 @import 'shared/base/common';
 @import 'shared/base/debugger';
 
-// Component(s)
-@import 'shared/components/footer';
+// Shared Component(s)
+@import 'shared/components/modal';
 
-// Partial(s)
-@import 'partials/hero';
-@import 'partials/venue';
-@import 'partials/comedians';
-@import 'partials/moments';
-@import 'partials/specs';
-@import 'partials/fremont';
-@import 'partials/airbnb';
-@import 'partials/about';
+// Shared Partial(s)
+@import 'shared/partials/footer';
+
+// Overview
+@import 'overview/partials/hero';
+@import 'overview/partials/venue';
+@import 'overview/partials/comedians';
+@import 'overview/partials/moments';
+@import 'overview/partials/specs';
+@import 'overview/partials/fremont';
+@import 'overview/partials/airbnb';
+@import 'overview/partials/about';
