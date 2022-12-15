@@ -1,4 +1,7 @@
 // Component - modal
+.video-thumb {
+    cursor: pointer;
+}
 .modal {
     z-index: 10000;
     position: fixed;
@@ -17,6 +20,8 @@
         display: block;
     }
 
+
+
     .modal-close {
         position: absolute;
         display: -webkit-box;
@@ -31,11 +36,14 @@
         font-size: 40px;
         line-height: 1;
         cursor: pointer;
-        background: blue;
-        width: 20px;
-        height: 20px;
         border: 0;
-        color: rgba(134,134,139,0.8);
+        text-align: center;
+        background: none;
+}       color: #fff;
+
+        &:after {
+            content: 'x';
+        }
     }
 
     .modal-content {

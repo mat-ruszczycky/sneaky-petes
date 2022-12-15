@@ -1,0 +1,35 @@
+'use strict';
+
+class Modal {
+	constructor(el) {
+		this._modal = el;
+		this._modalID = el.id;
+		this._modalCloseBtn = el.querySelector(`[data-modal-close]`);
+		this._video = el.querySelector(`[data-video="${this._modalID}"]`) || null;
+		this._videoThumb = document.querySelector(`[data-video-thumb="${this._modalID}"]`) || null;
+
+		this.bindEvents();
+	}
+
+	bindEvents() {
+		this._videoThumb.addEventListener('click', () => {
+			this._modal.classList.add('modal-open');
+			this._video.play();
+		});
+
+		this._modalCloseBtn.addEventListener('click', () => {
+			this._modal.classList.remove('modal-open');
+			this._video.pause();
+			this._video.currentTime = 0;
+		});
+
+		this._video.addEventListener('ended', () => {
+			this._video.currentTime = 0;
+		});
+	}
+}
+
+// Export(s)	
+export {
+	Modal
+}
