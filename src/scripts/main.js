@@ -6,17 +6,27 @@ import * as NoJs from './modules/noJS';
 // Component(s)
 import { Modal } from './components/modal';
 
+// Uitls(s)
+import * as KeyMap from './utils/keyMap';
+
 // Main
 const Main = () => {
     NoJs.init();
 
-    const videos = document.querySelectorAll(".modal");
+    const videos = document.querySelectorAll('.modal');
+    let modals = [];
 
-    for (let i = 0, len = videos.length; i < len; i++) {
-        new Modal(videos[i]);
-    }
-    
+    videos.forEach((el) => {
+        modals.push(new Modal(el))
+    });
 
+    window.addEventListener('keydown', function(e){
+        if (KeyMap.codex.escape === e.keyCode) {
+            modals.forEach((modal) => {
+                modal.closeModal();
+            });
+        }
+    });
 };
 
 document.addEventListener('readystatechange', e => {

@@ -10,7 +10,7 @@
     top: 0;
     bottom: 0;
     display: none;
-    background: rgba(0, 0, 0, .85);
+    background: rgba(0, 0, 0, 1);
 
     &.modal-full-viewport {
         padding: 96px 0;
@@ -20,9 +20,8 @@
         display: block;
     }
 
-
-
     .modal-close {
+        font-family: 'Gotham Thin';
         position: absolute;
         display: -webkit-box;
         display: -ms-flexbox;
@@ -39,7 +38,7 @@
         border: 0;
         text-align: center;
         background: none;
-}       color: #fff;
+     color: #fff;
 
         &:after {
             content: 'x';

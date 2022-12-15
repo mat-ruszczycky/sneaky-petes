@@ -11,16 +11,24 @@ class Modal {
 		this.bindEvents();
 	}
 
+	openModal() {
+		this._modal.classList.add('modal-open');
+		this._video.play();
+	}
+
+	closeModal() {
+		this._modal.classList.remove('modal-open');
+		this._video.pause();
+		this._video.currentTime = 0;
+	}
+
 	bindEvents() {
 		this._videoThumb.addEventListener('click', () => {
-			this._modal.classList.add('modal-open');
-			this._video.play();
+			this.openModal();
 		});
 
 		this._modalCloseBtn.addEventListener('click', () => {
-			this._modal.classList.remove('modal-open');
-			this._video.pause();
-			this._video.currentTime = 0;
+			this.closeModal();
 		});
 
 		this._video.addEventListener('ended', () => {
