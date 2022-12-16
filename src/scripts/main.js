@@ -6,33 +6,44 @@ import * as NoJs from './modules/noJS';
 // Component(s)
 import { Modal } from './components/modal';
 
-// Uitls(s)
-import * as KeyMap from './utils/keyMap';
 
 // Main
-const Main = () => {
-    NoJs.init();
-
-    const videos = document.querySelectorAll('.modal');
+const Main = (function() {
     let modals = [];
 
-    videos.forEach((el) => {
-        modals.push(new Modal(el));
-    });
+    const bindEvents = () => {
+        window.addEventListener('keydown', function(e){
+            if (e.key === 'Escape') {
+                modals.forEach((modal) => {
+                    if (modal._isModalOpen) {
+                        modal.closeModal();
+                    }
+                });
+            }
+        });
+    };
 
-    window.addEventListener('keydown', function(e){
-        if (KeyMap.codex.escape === e.keyCode) {
-            modals.forEach((modal) => {
-                if (modal._isModalOpen) {
-                    modal.closeModal();
-                }
-            });
-        }
-    });
-};
+    const initModals = () => {
+        const videos = document.querySelectorAll('.modal');
+        videos.forEach((el) => {
+            modals.push(new Modal(el));
+        });
+    };
 
+    const init = () => {
+        NoJs.init();
+        initModals();
+        bindEvents();
+    };
+
+    return {
+        init: init
+    };
+}());
+
+// Load Scripts
 document.addEventListener('readystatechange', e => {
     if (e.target.readyState === 'complete') {
-        Main();
+        Main.init();
     }
 });
