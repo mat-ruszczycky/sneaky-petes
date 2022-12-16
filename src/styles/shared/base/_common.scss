@@ -2,11 +2,11 @@
 html {
     scroll-behavior: smooth;
     
-    &.has-touch {
-    }
+    // &.has-touch {
+    // }
 
-    &.no-js {
-    }
+    // &.no-js {
+    // }
     
     body {
         overflow-x: hidden;
@@ -32,6 +32,11 @@ html {
             }
         }   
     }
+}
+
+// CTA
+.cta-thumb {
+    cursor: pointer;
 }
 
 // Backgrounds

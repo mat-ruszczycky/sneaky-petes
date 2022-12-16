@@ -1,41 +1,40 @@
-// Partial - Venue
+// Partial - venue
 .section-venue { 
     .container {
         padding-top: 0 !important;
     }
 
     .venue-record {
-        margin-top: 1.5rem;;
-    }
-
-    .venue-caption,
-    .venue-image {
-        text-align: center;
-      
-    }
-
-    .venue-image {
-        margin-top: 1rem;
-        object-fit: cover;
+        margin-top: 1.5rem;
         
-        &.tall {
-            aspect-ratio: 1.8 / 2.39;
+        .venue-caption,
+        .venue-image {
+            text-align: center;
+        }
 
-            @include media-breakpoint-up(lg) {
-                aspect-ratio: 1.8 / 2.26;
+        .venue-image {
+            margin-top: 1rem;
+            object-fit: cover;
+            
+            &.tall {
+                aspect-ratio: 1.8 / 2.39;
+
+                @include media-breakpoint-up(lg) {
+                    aspect-ratio: 1.8 / 2.26;
+                }
+
+                @include media-breakpoint-up(xl) {
+                    aspect-ratio: 1.8 / 2.19;
+                }
             }
 
-            @include media-breakpoint-up(xl) {
-                aspect-ratio: 1.8 / 2.19;
+            &.short {
+                aspect-ratio: 1.8 / 1;
             }
         }
 
-        &.short {
-            aspect-ratio: 1.8 / 1;
+        .venue-caption {
+            margin-top: 0;
         }
-    }
-
-    .venue-caption {
-        margin-top: 0;
     }
 }
