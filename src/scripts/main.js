@@ -2,6 +2,7 @@
 
 // Module(s)
 import * as NoJs from './modules/noJS';
+import * as Media from './modules/media';
 
 // Component(s)
 import { Modal } from './components/modal';
@@ -11,6 +12,13 @@ import { Modal } from './components/modal';
 const Main = (function() {
     let modals = [];
 
+    const initModals = () => {
+        const videos = document.querySelectorAll('.modal');
+        videos.forEach((el) => {
+            modals.push(new Modal(el));
+        });
+    };
+    
     const bindEvents = () => {
         window.addEventListener('keydown', function(e){
             if (e.key === 'Escape') {
@@ -23,16 +31,17 @@ const Main = (function() {
         });
     };
 
-    const initModals = () => {
-        const videos = document.querySelectorAll('.modal');
-        videos.forEach((el) => {
-            modals.push(new Modal(el));
-        });
+    const initLazyImages = () => {
+        let promise = Media.preloadImages();
+        promise.then(()=> {
+            document.querySelector('html').classList.add('images-loaded');
+        });;
     };
 
     const init = () => {
         NoJs.init();
         initModals();
+        initLazyImages();
         bindEvents();
     };
 
