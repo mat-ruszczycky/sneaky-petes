@@ -4,6 +4,7 @@
 import * as NoJs from './modules/noJS';
 import * as Media from './modules/media';
 
+
 // Component(s)
 import { Modal } from './components/modal';
 
@@ -33,7 +34,7 @@ const Main = (function() {
 
     const initLazyImages = () => {
         let promise = Media.preloadImages();
-        promise.then(()=> {
+        promise.then(() => {
             document.querySelector('html').classList.add('images-loaded');
         });;
     };
@@ -49,6 +50,7 @@ const Main = (function() {
         init: init
     };
 }());
+
 
 // Load Scripts
 document.addEventListener('readystatechange', e => {
