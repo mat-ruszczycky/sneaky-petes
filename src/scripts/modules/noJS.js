@@ -15,6 +15,19 @@ const isTouchEnabled = () => {
 		   ( navigator.msMaxTouchPoints > 0 )); 
 };
 
+const isiOS = () => {
+	return [
+		'iPad Simulator',
+		'iPhone Simulator',
+		'iPod Simulator',
+		'iPad',
+		'iPhone',
+		'iPod'
+	].includes(navigator.platform)
+	// iPad on iOS 13 detection
+	|| (navigator.userAgent.includes("Mac") && "ontouchend" in document);
+};
+
 const enable = () => {
 	if (isEnabled()) {
 		HTML.classList.remove('js');
@@ -30,6 +43,10 @@ const disable = () => {
 
 	if (isTouchEnabled()) {
 		HTML.classList.add('has-touch');
+	}
+
+	if (isiOS()) {
+		HTML.classList.add('is-touch');
 	}
 };
 
