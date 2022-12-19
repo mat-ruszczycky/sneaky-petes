@@ -40,7 +40,6 @@ const Main = (function() {
     };
 
     const init = () => {
-        NoJs.init();
         initModals();
         initLazyImages();
         bindEvents();
@@ -55,6 +54,7 @@ const Main = (function() {
 // Load Scripts
 document.addEventListener('readystatechange', e => {
     if (e.target.readyState === 'complete') {
+        NoJs.init();
         Main.init();
     }
 });
