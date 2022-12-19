@@ -14,8 +14,8 @@ const Main = (function() {
     let modals = [];
 
     const initModals = () => {
-        const videos = document.querySelectorAll('.modal');
-        videos.forEach((el) => {
+        const videoModals = document.querySelectorAll('.modal');
+        videoModals.forEach((el) => {
             modals.push(new Modal(el));
         });
     };

@@ -46,7 +46,7 @@ const disable = () => {
 	}
 
 	if (isiOS()) {
-		HTML.classList.add('is-touch');
+		HTML.classList.add('is-ios');
 	}
 };
 
